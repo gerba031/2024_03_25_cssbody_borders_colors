@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: darkblue;
+    background-color: white;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0 0 0.5em 0;
+}
+
+div {
+    font-size: 8pt;
+    background-color: yellow;
+    padding: 3px;
+    border: 1px solid black;
+    margin: 0.5em 0;
+}
+
+.fc div:first-child {
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+.nth1 div:nth-child(odd) {
+    font-weight: bold;
+    background-color: lightseagreen;
+}
+.nth2 *:nth-child(-n+3) {font-weight: bold;
+background-color: #fcc;}
+
+.fot div:first-of-type {font-weight: bold;
+background-color: #ecf;}
