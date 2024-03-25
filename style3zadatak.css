@@ -1,0 +1,60 @@
+hr {
+    border: dotted;
+    color: red;
+}
+
+span::after {
+    content: " \2713";
+    font-size: 16px;
+    color: green;
+    font-weight: 900;
+}
+
+
+section {
+    border: 2px solid grey;
+}
+
+::marker {
+    color: red;
+}
+
+h3::first-letter {
+    color: blue;
+    font-size: 2em;
+}
+
+.upper-slova {
+    list-style-type: upper-alpha;
+}
+
+.lower-slova {
+    list-style-type: lower-alpha;
+}
+
+a::before {
+    margin-left: 20px;
+    content: "\2023";
+    font-size: 24px;
+    color: red;
+}
+
+a:link {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blueviolet;
+    background-color: yellow;
+}
+
+a:hover {
+    color: yellow;
+    background-color: lawngreen;
+}
+
+a:active {
+    color: lawngreen;
+    background-color: yellow;
+}

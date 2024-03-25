@@ -32,8 +32,28 @@ div {
     font-weight: bold;
     background-color: lightseagreen;
 }
-.nth2 *:nth-child(-n+3) {font-weight: bold;
-background-color: #fcc;}
 
-.fot div:first-of-type {font-weight: bold;
-background-color: #ecf;}
+.nth2 *:nth-child(-n+3) {
+    font-weight: bold;
+    background-color: #fcc;
+}
+
+.fot div:first-of-type {
+    font-weight: bold;
+    background-color: #ecf;
+}
+
+.oot *:only-of-type {
+    font-weight: bold;
+    background-color: magenta;
+}
+
+.nthl :nth-last-of-type(2) {
+    font-weight: bold;
+    background-color: #ccf;
+}
+
+.ntt div.kk:nth-of-type(odd) {
+    font-weight: bold;
+    background-color: orange;
+}

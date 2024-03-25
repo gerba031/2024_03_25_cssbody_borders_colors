@@ -1,0 +1,46 @@
+p.af::after {
+    content: " <|--zapamti ovo!!";
+    color: red;
+    background-color: yellow;
+}
+
+p.bf::before {
+    content: " zapamti ovo!! --|>";
+    color: yellow;
+    background-color: red;
+}
+
+p.k1::first-letter {
+    color: rgb(0, 68, 255);
+    font-size: xx-large;
+}
+
+p.fl::first-line {
+    background-color: yellow;
+}
+
+p.flfl::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+p.flfl::first-line {
+    color: blue;
+    font-variant: small-caps;
+}
+
+::marker {
+    color: red;
+    font-size: xx-large;
+}
+
+.ul1 {
+    list-style-type: circle;
+}
+
+.ol1 {
+    list-style-type: lower-roman;
+}
+
+::selection {color: blue;
+background: pink;}
